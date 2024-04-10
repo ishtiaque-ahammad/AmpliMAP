@@ -42,15 +42,18 @@ You need to have jupyterlab or jupyter notebook installed which are available at
 
 ### Prepare your data
 
-1. keep your forward and reverse read files in fastq / fastq.gz format (e.g., R1.fastq.gz, R2.fastq.gz) in a directory named raw_data.
+1. Download the example raw amplicon sequencing data mentioned in the manifest file from NCBI Bioproject PRJNA876782 and keep them in a directory named raw_data.
 
-2. keep the metadata and the manifest file outside the raw_data directory.
+4. Keep the metadata, the manifest file, and the AmpliMAP.ipynb notebook outside the raw_data directory.
+
+5. Make sure the path to all the raw sequencing data files are correctly mentioned inside the manifest file.
 
 ### Open the AmpliMAP.ipynb in jupyterlab or jupyter notebook 
 
-Open the AmpliMAP.ipynb outside the raw_data directory. Make sure the metadata and the manifest files are in the same directory as the AmpliMAP.ipynb notebook.
+Open the AmpliMAP.ipynb using jupyterlab or jupyter notebook. Make sure the metadata and the manifest files are in the same directory as the AmpliMAP.ipynb notebook.
 
 ### Run the pipeline in step-by-step manner
+
 The pipeline will generate output visualizations, tables, other files and store them in appropriate directories.
 
 ## License
